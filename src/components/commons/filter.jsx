@@ -1,6 +1,10 @@
-const Filter = (props) => {
-  const { items, onFilterHandler, textProperty, valueProperty, selectedItem } =
-    props;
+const Filter = ({
+  items,
+  onFilterHandler,
+  textProperty,
+  valueProperty,
+  selectedItem,
+}) => {
   return (
     <ul className="list-group">
       {items.map((item) => (
